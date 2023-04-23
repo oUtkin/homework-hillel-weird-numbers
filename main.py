@@ -4,7 +4,7 @@ n = input('Please enter your number: ')
 
 # in case user has entered not a number (yes I found it in the internet :p)
 try:
-    is_number = int(n)
+    is_number = float(n)
 except ValueError:
     print('Please use only digits')
     exit()
